@@ -36,13 +36,13 @@ export default class Login extends Component {
       <div className={'main acrylic'}>
         <BackgroundSlideshow style={{
           backgroundAttachment: 'fixed' }} images={[
-            'http://portal.usep.edu.ph/img/logo/ic.svg',
-            'http://portal.usep.edu.ph/img/logo/cas.svg',
-            'http://portal.usep.edu.ph/img/logo/ce.svg',
-            'http://portal.usep.edu.ph/img/logo/ct.svg',
-            'http://portal.usep.edu.ph/img/logo/cgbe.svg',
-            'http://portal.usep.edu.ph/img/logo/educ-logo.svg',
-            'http://portal.usep.edu.ph/img/logo/saec-logo.svg' ]} />
+            'http://portalmintal.usep.edu.ph/img/logo/ic.svg',
+            'http://portalmintal.usep.edu.ph/img/logo/cas.svg',
+            'http://portalmintal.usep.edu.ph/img/logo/ce.svg',
+            'http://portalmintal.usep.edu.ph/img/logo/ct.svg',
+            'http://portalmintal.usep.edu.ph/img/logo/cgbe.svg',
+            'http://portalmintal.usep.edu.ph/img/logo/educ-logo.svg',
+            'http://portalmintal.usep.edu.ph/img/logo/saec-logo.svg' ]} />
         <WrappedNormalLoginForm {...this.props} />
       </div>
     )

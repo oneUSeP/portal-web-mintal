@@ -104,7 +104,7 @@ class DashboardLayout extends Component {
           collapsible
           collapsed={this.state.collapsed}>
           <Link to='/dashboard'><div className='logo' style={{textAlign: 'center', marginBottom: this.state.collapsed ? '1.75em' : '4.5em'}}>
-            <img style={{width: this.state.collapsed ? '100%' : '50%'}} src='http://portal.usep.edu.ph/usep-logo.png' />
+            <img style={{width: this.state.collapsed ? '100%' : '50%'}} src='http://portalmintal.usep.edu.ph/usep-logo.png' />
           </div></Link>
           <Menu theme='dark' mode='inline' defaultSelectedKeys={['1']}>
             {userRole == 'admin'
@@ -156,7 +156,7 @@ class DashboardLayout extends Component {
             <Row>
               <Col xs={{ span: 5, offset: 19 }} sm={{ span: 6, offset: 18}} md={{ span: 2, offset: 22 }} lg={{ span: 2, offset: 22 }} xl={{ span: 1, offset: 23 }} xxl={{ span: 2, offset: 22 }}>
                 <Dropdown overlay={menu} placement='bottomCenter'><span>
-                <Badge dot><Avatar shape='circle' size='large' src={profile ? 'data:image/png;base64, ' + image : 'http://portal.usep.edu.ph/usep-logo.png'} /></Badge>
+                <Badge dot><Avatar shape='circle' size='large' src={profile ? 'data:image/png;base64, ' + image : 'http://portalmintal.usep.edu.ph/usep-logo.png'} /></Badge>
               </span></Dropdown>
               </Col>
             </Row>
